@@ -82,7 +82,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Flask",
       fontAwesomeClassname: "fas fa-pepper-hot"
     },
-    
+
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -106,8 +106,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -127,8 +126,7 @@ const educationInfo = {
         "Managed the events and activities of 120+ juniors, conducting workshops and hackathons in partnership with companies.",
         "Lead the team which developed games to be shown off as society projects in cultural festivals of the college."
       ]
-    },
-    
+    }
   ]
 };
 
@@ -163,7 +161,7 @@ const workExperiences = {
       company: "Finpeg",
       companylogo: require("./assets/images/finpeg-logo.jpeg"),
       date: "April 2020 – July 2020",
-      desc: "Worked on building a CRM System from scratch for the IFAs to use.",
+      desc: "Worked on building a CRM System from scratch for the IFAs to use."
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -175,7 +173,7 @@ const workExperiences = {
       companylogo: require("./assets/images/finpeg-logo.jpeg"),
       date: "May 2019 – June 2019",
       desc: "Worked on creating an automated system for data gathering and calculation of rolling returns."
-    },
+    }
     // {
     //   role: "Software Engineer Intern",
     //   company: "Airbnb",
@@ -215,7 +213,8 @@ const bigProjects = {
     {
       image: require("./assets/images/QMoney-Logo.png"),
       projectName: "QMoney",
-      projectDesc: "QMoney is a visual stock portfolio analyzer. It helps portfolio managers make trade recommendations for their clients.",
+      projectDesc:
+        "QMoney is a visual stock portfolio analyzer. It helps portfolio managers make trade recommendations for their clients.",
       footerLink: [
         {
           name: "Know More",
@@ -289,11 +288,9 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "I occationally write about football and whatever I feel like ",
+  subtitle: "I occationally write about football and whatever I feel like ",
 
   blogs: [
-    
     {
       url: "https://vedantatrivedi.medium.com/why-are-arsenals-transfers-so-bad-2b79ff409ba",
       title: "Why are Arsenal’s transfers so bad?",
