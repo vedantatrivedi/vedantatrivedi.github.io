@@ -17,7 +17,7 @@ const greeting = {
     "A aspiring Software Developer ✨ currently in my final year of Engineering. In my free time, you will find me reading about football, history and economics or playing outdoors 🏃🏻"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/19_JFhHC9HFzP1PLAL4yVex3q3pDaBIYt/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1uIf9-TTzbTYXwCF3GARKpi9Ly0WbWjip/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -154,8 +154,19 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
+    {
+      role: "Software Engineer Intern",
+      company: "Providence India",
+      companylogo: require("./assets/images/ProvidenceLogo.jpeg"),
+      date: "January 2022 – Present",
+      // desc: "Worked on building a CRM System from scratch for the IFAs to use."
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    }, //Set it to true to show workExperiences Section
     {
       role: "Software Engineer Intern",
       company: "Finpeg",
